@@ -310,3 +310,50 @@ What next ?
 
 
 */ 
+
+/*
+History of JavaScript
+
+-> ECMAScript
+-> JavaScript
+-> ES5
+-> ES6
+-> ES7
+-> ES2015
+-> ES2016
+-> ES2017
+-> ES2018
+
+-----------------------------------------------------------
+
+In 1995 -> Netscape Navigator (Popular Web Browser) -> Brendan Eich (he works for them) (He creates javaScript withing 10 days) ->
+javaScript first name was Mocha -> then its name changed with LiveScript --> then its name changed with name of a popular programming language java and finally they named the language is javaScript
+Mocha --> LiveScript --> JavaScript
+
+Internet Explorer use some javascript code and create a jscript language 
+
+So in 1996 there are two browser who use two different languages in their browser. 
+
+So then comes ECMAScript who solve this issue. ECMAScript (International Standardization ) makes a standard language for all the browsers 
+
+ES1: 1997
+
+ES2
+ES3 
+.
+.
+ES5: 2009 (lots of new features)
+ES6: 2015 (Biggest update in the history of js) --> Modern JavaScript
+ES7: ES2016
+ES8: ES2017
+TC39 --> Technical Community 39 --> They came with new features every year 
+
+to comewith great features in javaScript there are 4 stages to follow 
+
+*** JavaScript is backward compatible language***
+Meaning যেই features javaScript এ ১০ বছর আগে আসছিল সেটা এখনো কাজ করবে 
+কিন্তু *** javaScript is not forward compatibel language 
+Meaning ধরা যাক আজকে একটি javaScript এর নতুন features আসলো এখন আমরা যদি আমাদের browser update না করি তাহলে সেটি কাজ করবে না ।
+
+
+*/ 
