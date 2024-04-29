@@ -48,3 +48,14 @@ console.log(firstName);
 
 var first_name = "sihab"; // snake_case writing
 var firstName = "sihab"; // camelCase writing
+
+// =========================================== let keyword =================================
+// declare variable with let keyword
+
+let SecondName = "sihab";
+SecondName = "Sifat";
+console.log(SecondName);
+
+// declare variable with const keyword
+const pi = 3.14;
+console.log(pi);
