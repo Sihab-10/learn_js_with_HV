@@ -45,3 +45,6 @@ console.log(firstName);
 
 // convention 
 // start with small letter and use camelCase
+
+var first_name = "sihab"; // snake_case writing
+var firstName = "sihab"; // camelCase writing
