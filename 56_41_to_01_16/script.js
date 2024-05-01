@@ -1,7 +1,7 @@
 /*
-=============================================================================================
+===================================================================================================================
 string indexing, useful string method, typeof, string to number , number to string conversion, string concatination
-=============================================================================================
+===================================================================================================================
 */ 
 
 // String indexing
@@ -26,12 +26,14 @@ console.log("the last index value of firstName variable is ",firstName[firstName
 // String methods
 
 // trim()
+// trim() -> string method এর কাজ হলো যত প্রকার এর space আছে সেগুলো remove করে দেয় । 
 // toUpperCase()
 // toLowerCase()
 // slice
 
 let SecondName = "   Sarar   ";
-
 console.log(SecondName.length);
-firstName.trim(); 
+
+let newString = SecondName.trim(); // "sarar" 
+console.log(newString)
 console.log(firstName.length)
