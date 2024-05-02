@@ -97,3 +97,17 @@ let string2 = "Sarar";
 
 let fullName = string1 + " " +string2;
 console.log(fullName);
+
+// some fun
+
+let string3 = "17";
+let string4 = "10";
+let add = Number(string3) + Number(string4); 
+console.log(add);
+
+// same fun
+
+let string5 = "18";
+let string6 = "10";
+let sum = +string5 + +string6;
+console.log(sum);
