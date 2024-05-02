@@ -1,7 +1,7 @@
 /*
-===================================================================================================================
+=================================================================================================================
 string indexing, useful string method, typeof, string to number , number to string conversion, string concatination
-===================================================================================================================
+=================================================================================================================
 */ 
 
 // String indexing
@@ -26,10 +26,12 @@ console.log("the last index value of firstName variable is ",firstName[firstName
 // String methods
 
 // trim()
-// trim() -> string method এর কাজ হলো যত প্রকার এর space আছে সেগুলো remove করে দেয় । 
+// trim() -> এই  String method এর কাজ হলো যত প্রকার এর space আছে সেগুলো remove করে দেয় । 
 // toUpperCase()
+// toUpperCase() -> এই String method এর কাজ হলো String এর প্রত্যেকটা লেটারকে upper case এ নিয়ে যাওয়া ।  
 // toLowerCase()
-// slice
+// toLowerCase() -> এই String method এর কাজ হলো String এর প্রত্যেকটা লেটারকে lower case এ নিয়ে যাওয়া । 
+// slice()
 
 let SecondName = "   Sarar   ";
 console.log(SecondName.length);
@@ -37,3 +39,61 @@ console.log(SecondName.length);
 let newString = SecondName.trim(); // "sarar" 
 console.log(newString)
 console.log(firstName.length)
+
+console.log(SecondName.toUpperCase());
+console.log(SecondName.toLowerCase());
+
+// start index
+// slice(0,6) -> 0 1 2 3 4 5
+// slice(1) -> start 1 to the end index
+// end index
+let myString = "IloveBD";
+myString = myString.slice(0,6); // Sar
+console.log(myString);
+
+// typeof operator
+
+// data types (primitive)
+// n -> null
+// n -> number
+// b -> BigInt
+// b -> boolean
+// s -> string
+// s -> symbol
+// u -> undefine
+
+// data types (non-primitive)
+
+// object
+
+let age = 22;
+let myName = "sihab";
+console.log(typeof(age))
+console.log(typeof(myName))
+
+// convert number to string
+
+age = age + ""; // converted int to string
+console.log(typeof(age)) // "22"
+
+// convert string to number
+
+let myStr = +"34";
+console.log(typeof myStr);
+
+// number to string conversion
+let myAge = 18;
+myAge = String(myAge);
+console.log(typeof myAge);
+// string to number conversion
+let myMoney = "20";
+myMoney = Number(myMoney);
+console.log(typeof myMoney);
+
+// string concatenation
+
+let string1 = "Sihab";
+let string2 = "Sarar";
+
+let fullName = string1 + " " +string2;
+console.log(fullName);
